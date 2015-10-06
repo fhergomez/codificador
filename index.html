@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Codificador</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+
+  </head>
+
+  <body>
+    <div class="container-fluid wrapper">
+      <div class="row menubar">
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 logo">Codificador</div>
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 buttons">
+          <button type="button" class="btn btn-success selected">HTML</button>
+          <button type="button" class="btn btn-success">CSS</button>
+          <button type="button" class="btn btn-success">JS</button>
+          <button type="button" class="btn btn-success selected">Resultado</button>
+        </div>
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 runButton">
+          <button type="button" class="btn btn-success ejecutar">Ejecutar</button>
+        </div>
+      </div>
+      <div class="clear"></div>
+      <div class="row">
+        <div class="codeContainer" id="HTMLContainer">
+          <div class="codeLabel">HTML</div>
+          <textarea id="htmlCode">
+            <div id="test"></div>
+          </textarea>
+        </div>
+        <div class="codeContainer" id="CSSContainer">
+          <div class="codeLabel">CSS</div>
+          <textarea id="cssCode">
+            html {background-color: blue;}
+          </textarea>
+        </div>
+        <div class="codeContainer" id="JSContainer">
+          <div class="codeLabel">JS</div>
+          <textarea id="jsCode">JavaScript Has been disabled for security reasons, but you can play around with HTML & CSS
+
+          JavaScript ha sido deshabilitado por razones de seguridad, pero todavia puedes usar CSS y HTML
+          </textarea>
+        </div>
+        <div class="codeContainer" id="ResultadoContainer">
+          <div class="codeLabel">Resultado</div>
+          <iframe id="resultFrame">
+
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>

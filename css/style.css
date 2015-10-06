@@ -1,0 +1,118 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+}
+
+.clear {
+  clear: both;
+}
+
+.codeContainer {
+  height: 100%;
+  width: 40%;
+  position: relative;
+  float: left;
+}
+.main {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.wrapper {
+  margin:0;
+  padding:0;
+}
+
+.logo {
+  padding: 5px 0 0 20px;
+  font-weight: bold;
+  font-size: 120%;
+  float: left;
+  color: white;
+}
+
+.runButton {
+  padding-top: 2px;
+}
+
+.ejecutar {
+  letter-spacing:0.08em;
+  font-size: 1em;
+  float: right;
+}
+
+.buttons {
+  padding-top: 2px;
+}
+
+.selected {
+  background-color: #398439;
+}
+
+.codeLabel {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.codeContainer textarea {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-right: 1px solid grey;
+  font-family: monotype;
+  font-size: 90%;
+  box-sizing: border-box;
+  padding: 45px 5px 5px 10px;
+}
+
+#CSSContainer, #JSContainer {
+  display: none;
+}
+
+iframe {
+  height: 100%;
+  position: relative;
+  left: 20px;
+  border: none;
+}
+
+
+/************************
+******* FORM ************
+*************************/
+
+.error {
+  display: none;
+}
+
+#draggable {
+  height: 200px;
+  width: 200px;
+  background-color: green;
+  z-index: 300;
+}
+
+#resizable {
+  height: 200px;
+  width: 200px;
+  background-color: grey;
+}
+
+#target {
+  height: 400px;
+  width: 400px;
+  background-color: #00bbff;
+}
+
+.menubar {
+  width: 100%;
+  height: 40px;
+  background-color: #00bbff;
+  border-bottom: 1px solid black;
+  padding: 0;
+  margin: 0
+}
